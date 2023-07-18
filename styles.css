@@ -1,0 +1,38 @@
+
+
+body{
+  background-color: green;
+  
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffff;
+  width: 150px;
+  height: 230px;
+  border-radius: 5px;
+}
+
+.pinta-top {
+  font-size: 45px;
+}
+
+.digito {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.pinta-down {
+  display: flex;
+  font-size: 45px;
+  justify-content: end;
+}
